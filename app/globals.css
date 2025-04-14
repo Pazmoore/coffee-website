@@ -1,26 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* "Edu AU VIC WA NT Arrows" */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* background: linear-gradient(to left, white 10%, #9d4163 100%); */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Aeonik Regular", "Aeonik", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #ffffff;
+  scroll-behavior: smooth;
+  background-color: #380316;
+}
+.link {
+  text-decoration: none;
+  color: #9c9b9b;
+}
+.link:hover{
+  text-decoration: underline;
+  color: #b66969;
+}
+
+.contain {
+  width: 90%;
+  margin: auto;
+}
+h1{
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffff;
 }
