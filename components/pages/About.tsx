@@ -3,10 +3,10 @@ import Image from "next/image";
 import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-const page = () => {
+const About = () => {
   return (
-    <section className='contain'>
-        <div className='flex flex-wrap justify-between items-center gap-6'>
+    <section className='bg-white text-black p-5'>
+        <div className='flex flex-wrap justify-between items-center gap-8'>
             <Image
                 src="/images/date-1.jpeg"
                 width={400}
@@ -17,9 +17,9 @@ const page = () => {
             <div className='flex flex-col flex-wrap justify-center items-center gap-4'>
                 <h1 className="text-5xl font-bold">About Us</h1>
                 <div className='border-b-4 border-[#b66969] w-20 inline-block rounded-3xl'></div>
-                <p className='w-full max-w-[35rem] text-center'>At Coffee House in Berndorf, Germany, we pride ourselves on being a
+                <p className='w-full max-w-[35rem] text-center leading-loose'>At Coffee House in Berndorf, Germany, we pride ourselves on being a
                     go-to destination for coffee lovers and conversation seekers alike.
-                    We're dedicated to providing an ERceptional coffee experience in a
+                    We&apos;re dedicated to providing an exceptional coffee experience in a
                     cozy and inviting atmosphere, where guests can relax, unwind, and
                     enjoy their time in comfort.
                 </p>
@@ -41,4 +41,4 @@ const page = () => {
   )
 }
 
-export default page
+export default About
