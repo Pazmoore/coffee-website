@@ -8,7 +8,7 @@ const Contact = () => {
         <div className='flex flex-col flex-wrap gap-4 justify-center items-center mb-4 mt-4'>
             <h1 className="text-5xl font-bold">Contact Us</h1>
             <div className='border-b-4 border-[#cf8989] w-20 inline-block rounded-3xl'></div>
-            <p className='text-sm w-full max-w-[700px] text-center'>Coffee House in Berndorf, Lagos, we will like to hear from you.</p>
+            <p className='text-sm w-full max-w-[700px] text-center'>Coffee House in Berndorf, Germany, we will like to hear from you.</p>
         </div>
         <div className='flex flex-wrap justify-around items-center gap-4 mt-10'>
             <div className='flex flex-col flex-wrap justify-start items-start gap-4 lg:gap-12'>
@@ -19,7 +19,7 @@ const Contact = () => {
 
                 <div className="flex items-center gap-2">
                     <FaPhone className='text-2xl text-blue-700'/>
-                    <span className='text-xl font-semibold'>+234 812 345 6789</span>
+                    <span className='text-xl font-semibold'>+49 1512 3456789</span>
                 </div>
 
                 <div className="flex items-center gap-2">
