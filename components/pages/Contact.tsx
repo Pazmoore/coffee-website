@@ -14,7 +14,7 @@ const Contact = () => {
             <div className='flex flex-col flex-wrap justify-start items-start gap-4 lg:gap-12'>
                 <div className="flex items-center gap-2">
                     <FaLocationDot className='text-2xl text-red-700'/>
-                    <span className='text-xl font-semibold'>Lagos, Nigeria</span>
+                    <span className='text-xl font-semibold'>Berndorf, Germany</span>
                 </div>
 
                 <div className="flex items-center gap-2">
